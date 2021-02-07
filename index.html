@@ -1,15 +1,10 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Invitaion</title>
 <style>
- @media (max-width: 768px) {
-  body,html {
-   max-width: 100%;
-   min-width: 100%;
- }
-}
+
 #qoute
 {
 padding-top:;
@@ -18,12 +13,11 @@ padding-left:30%;
 padding-right:20%;
 font-size:30px;
 text-shadow: 2px 3px red;
+text-wrap:no;
 font-family:cursive;
 animation-name:qoute;
 animation-duration:7s;
 position:relative;
-height:auto;
-width:auto;
 }
 @keyframes qoute
 {
@@ -43,8 +37,8 @@ position:relative;
 }
 @keyframes name
 {
-from{bottom:-50%;}
-to{bottom:0%;}
+from{left:-50%;}
+to{left:0%;}
 }
 .mystyle 
 {
@@ -89,12 +83,11 @@ to{right:0%;}
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color:#eef06e ;
-  
 }
 #bg
 {
 background-image:url('https://www.hdnicewallpapers.com/Walls/Big/Love%20Heart/Red_Heart_HD_Background_Wallpaper.jpg');
-height:100%;
+height:auto;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -104,29 +97,19 @@ background-size: cover;
 width:20px;
 height:20px;
 }
+
 #marriage
-{
-max-width:200px;
-max-height:150px;
-width:auto;
-height:auto;
-margin-left:1098px;
-margin-top:0%;
-position:relative;
-opacity:0.8;
-}
-#love
 {
 width:200px;
 height:150px;
 position:relative;
+margin-left:40%;
 opacity:0.8;
 }
 </style>
 </head>
-<body>
-<div id="bg">
-<img id="love" src="https://wallpaperaccess.com/full/1436660.jpg"/>
+<body id="bg">
+<div>
 <img id="marriage" src="https://static.toiimg.com/photo/62469853.cms"/>
 <div id="qoute">
 <p><b>We warmly invite you and your family to join us as we start a new journey of life together. Your presence will be a blessing to us.</b></p>
