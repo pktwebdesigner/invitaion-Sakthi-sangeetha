@@ -1,0 +1,158 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Invitaion</title>
+<style>
+#qoute
+{
+padding-top:;
+color:yellow;
+padding-left:30%;
+padding-right:20%;
+font-size:30px;
+text-shadow: 2px 3px red;
+font-family:cursive;
+animation-name:qoute;
+animation-duration:7s;
+position:relative;
+}
+@keyframes qoute
+{
+from{left:-50%;}
+to{left:0%;}
+}
+#name
+{
+text-align:center;
+text-shadow:2px 2px #f0d9aa;
+font-size:45px;
+font-family: Brush Script MT;
+color:#1c42b8;
+animation-name:name;
+animation-duration:8s;
+position:relative;
+}
+@keyframes name
+{
+from{bottom:-50%;}
+to{bottom:0%;}
+}
+.mystyle 
+{
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+#datebtn
+{
+font-size:20px;
+width:200px;
+height:50px;
+margin-top:3%;
+margin-left:43%;
+background-color:#03fce3;
+border:3px solid black;
+border-radius:20px;
+animation-name:button;
+animation-duration:10s;
+position:relative;
+}
+#datebtn:hover
+{
+background-color:#aad9f0;
+}
+@keyframes button
+{
+from{right:-50%;}
+to{right:0%;}
+}
+.content 
+{
+  color:red;
+  font-size:30px;
+  font-family: verdana;
+  text-shadow:2px 2px white;
+  text-align:center;
+  max-height:0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color:#eef06e ;
+  
+}
+#bg
+{
+background-image:url('https://www.hdnicewallpapers.com/Walls/Big/Love%20Heart/Red_Heart_HD_Background_Wallpaper.jpg');
+height:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#arrow
+{
+width:20px;
+height:20px;
+}
+#marriage
+{
+width:200px;
+height:150px;
+margin-left:1098px;
+margin-top:0%;
+position:relative;
+opacity:0.8;
+}
+#love
+{
+width:200px;
+height:150px;
+position:relative;
+opacity:0.8;
+}
+</style>
+</head>
+<body>
+<div id="bg">
+<img id="love" src="https://wallpaperaccess.com/full/1436660.jpg"/>
+<img id="marriage" src="https://static.toiimg.com/photo/62469853.cms"/>
+<div id="qoute">
+<p><b>We warmly invite you and your family to join us as we start a new journey of life together. Your presence will be a blessing to us.</b></p>
+</div>
+<div id="name">
+<p>J.Sakthi Vel</br>Weds</br>B.Sangeetha</p>
+</div>
+
+<button id="datebtn" onclick="myfunction()">When & Where</button>
+<div class="content">
+<p>Thursday Feb,25th</br>
+Arulmigu Angala Eswari Muniswarer Temple,Thanjavur&nbsp 
+<a href="https://www.google.com/maps/place/Arulmigu+Angaleswari+Muniswarar+Kovil/@10.7634085,79.1470533,20.18z/data=!4m13!1m7!3m6!1s0x3baab8f30f6079e1:0xd9f5e65fff0de189!2sVillar+Rd,+Thanjavur,+Tamil+Nadu!3b1!8m2!3d10.7641189!4d79.1471728!3m4!1s0x3baab8f3a4fbc933:0xcd4bf1fe4049178a!8m2!3d10.7633997!4d79.1472995" target="_blank">
+<img id="arrow" src="data:image/png;base64,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">
+</a>
+</p>
+</div>
+
+</div>
+
+<script>
+
+function myfunction()
+{
+var modal=document.getElementById("datebtn");
+var content=datebtn.nextElementSibling;
+if (content.style.maxHeight)
+{
+      content.style.maxHeight = null;
+} 
+ else 
+   {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+}
+</script>
+
+</body>
+</html>
